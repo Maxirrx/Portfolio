@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+body{
+    background: #141110;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+@media (max-width: 2600px) {
+    .petitnom{
+        font-size: 30px;
+        margin-top: 100px;
+        margin-left: 85px;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: -50px;
+        margin-left: 75px;
+    }
+
+    .bio{
+        margin-left: 1325px;
+        margin-top: 200px;
+        font-size: 27px;
+    }
+
+    .petitebio p {
+        text-align: right;
+        margin-right: 490px;
+        margin-bottom: -25px;
+    }
+
+    .big{
+        font-size: 500px;
+        margin-top: -1810px;
+        margin-left: 1280px;
+    }
+
+    img{
+        width: 1200px;
+        height: auto;
+        margin-left: -100px;
+        margin-top: -1000px ;
+    }
+
+    .pdf{
+        margin-left: 1330px;
+        width: 300px;
+        height: 70px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 2000px) {
+    .petitnom {
+        font-size: 24px;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    .titre {
+        font-size: 26px;
+        margin-top: -40px;
+        margin-left: 50px;
+    }
+
+    .bio {
+        margin-left: 1000px;
+        margin-top: 150px;
+        font-size: 22px;
+    }
+
+    .petitebio p {
+        text-align: right;
+        margin-right: 300px;
+        margin-bottom: -15px;
+    }
+
+    .big {
+        font-size: 410px;
+        margin-top: -1464px;
+        margin-left: 964px;
+    }
+
+    img {
+        width: 900px;
+        height: auto;
+        margin-left: -40px;
+        margin-top: -750px;
+    }
+
+    .pdf{
+        margin-left: 1000px;
+        width: 250px;
+        height: 60px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+}
+
+.pdf{
+    text-align: center;
+    background: #FFD60A;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.bio{
+    color: #EDE0D9;
+}
+
+.petitebio p {
+    text-align: right;
+}
+
+.petitnom{
+    color: #AE8C7E;
+}
+
+.titre{
+    color: #AE8C7E;
+
+}
+
+.big {
+    color: #AE8C7E;
+    position: absolute;
+    font-weight: bold;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+    font-family: "Jacquard 12", system-ui;
+}
+
+img{
+    position: absolute;
+    font-weight: bold;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+}

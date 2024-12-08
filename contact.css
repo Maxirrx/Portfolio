@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+body{
+    background: #141110;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+h1{
+    color:  #EDE0D9 ;
+}
+
+label{
+    display: block;
+    color: #EDE0D9;
+}
+
+input{
+    background: #141110;
+    color:#AE8C7E;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+#send {
+    border-radius: 50%;
+    background-color: #A18072;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: url("img/fusé.svg"), auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+
+@media (max-width: 2600px) {
+    form{
+        margin-left: 550px;
+        margin-top: 100px;
+    }
+
+    .form{
+        margin: 60px;
+    }
+
+    input{
+        padding: 10px;
+        font-size: 25px;
+        border: none;
+        width: 600px;
+        margin-left: -8px;
+        margin-top: 50px;
+    }
+
+    label{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 60px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    #send{
+        width: 150px;
+        height: 150px;
+        font-size: 21px;
+        margin-left: 1000px;
+        margin-top: -210px;
+    }
+}
+
+@media (max-width: 2000px) {
+    form {
+        margin-left: 400px;
+        margin-top: 40px;
+    }
+
+    .form {
+        margin: 40px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 20px;
+        border: none;
+        width: 450px;
+        margin-left: -8px;
+        margin-top: 40px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    #send {
+        width: 100px;
+        height: 100px;
+        font-size: 15px;
+        margin-left: 650px;
+        margin-top: -140px;
+    }
+}
