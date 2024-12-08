@@ -51,6 +51,7 @@ body{
         height: 70px;
         margin-top: 30px;
         font-size: 20px;
+        padding-top: 40px;
     }
 }
 @media (max-width: 2000px) {
@@ -97,13 +98,177 @@ body{
         height: 60px;
         margin-top: 30px;
         font-size: 15px;
+        padding-top: 35px;
     }
 }
+
+@media (max-width: 1460px) {
+    .petitnom {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .titre {
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: 30px;
+    }
+
+    .bio {
+        margin-left: 600px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .petitebio p {
+        text-align: right;
+        margin-right: 350px;
+        margin-bottom: -15px;
+    }
+
+    .big {
+        font-size: 300px;
+        margin-top: -1120px;
+        margin-left: 575px;
+    }
+
+    img {
+        width: 700px;
+        height: auto;
+        margin-left: -20px;
+        margin-top: -550px;
+    }
+
+    .pdf {
+        margin-left: 600px;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        font-size: 14px;
+        padding-top: 25px;
+
+    }
+}
+
+@media (max-width: 1300px) {
+    .petitebio p {
+        text-align: right;
+        margin-right: 200px;
+        margin-bottom: -15px;
+    }
+
+    .big{
+        margin-top: -1110px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .petitnom {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+    .titre {
+        font-size: 20px;
+        margin-top: -35px;
+        margin-left: 20px;
+    }
+
+    .bio {
+        margin-left: 500px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .petitebio p {
+        text-align: right;
+        margin-right: 100px;
+        margin-bottom: -15px;
+    }
+
+    .big {
+        font-size: 250px;
+        margin-top: -995px;
+        margin-left: 480px;
+    }
+
+    img {
+        width: 600px;
+        height: auto;
+        margin-left: -10px;
+        margin-top: -450px;
+    }
+
+    .pdf {
+        margin-left: 500px;
+        width: 180px;
+        height: 45px;
+        margin-top: 15px;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    .petitnom {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .titre {
+        font-size: 18px;
+        margin-top: -20px;
+        margin-left: 15px;
+    }
+
+    .bio {
+        margin-left: 300px;
+        margin-top: 100px;
+        font-size: 14px;
+    }
+
+    .petitebio p {
+        text-align: right;
+        margin-right: 90px;
+        margin-bottom: -13px;
+    }
+
+    .big {
+        font-size: 180px;
+        margin-top: -770px;
+        margin-left: 287px;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+        margin-left: -90px;
+        margin-top: -430px;
+    }
+
+    .pdf {
+        margin-left: 300px;
+        width: 160px;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}
+
+
+
 
 .pdf{
     text-align: center;
     background: #FFD60A;
     border-radius: 15px;
+}
+
+.pdf a{
     color: #ffffff;
     font-weight: bold;
     user-select: none;
