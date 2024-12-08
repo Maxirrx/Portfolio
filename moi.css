@@ -106,11 +106,12 @@ body{
     border-radius: 15px;
     color: #ffffff;
     font-weight: bold;
-
+    user-select: none;
     text-decoration: none;
 }
 
 .bio{
+    user-select: none;
     color: #EDE0D9;
 }
 
@@ -120,10 +121,12 @@ body{
 
 .petitnom{
     color: #AE8C7E;
+    user-select: none;
 }
 
 .titre{
     color: #AE8C7E;
+    user-select: none;
 
 }
 

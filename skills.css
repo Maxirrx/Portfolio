@@ -121,13 +121,20 @@ body{
     }
 }
 
+img{
+    transition: all 0.3s ease-in-out;
+}
+
 .contener{
     display: flex;
     justify-content: space-between;
+    user-select: none;
 }
 
 .titre{
     color: #AE8C7E;
+    pointer-events: none;
+    user-select: none;
 }
 
 .front-end h1, .back-end h1{

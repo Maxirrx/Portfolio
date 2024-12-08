@@ -96,6 +96,7 @@ body{
 .menu a{
     color: #EDE0D9;
     text-decoration: none;
+    user-select: none;
 }
 
 .salut{
@@ -118,3 +119,4 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+
